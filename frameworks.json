@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-11-17",
+  "bmad": {
+    "package": "bmad-method",
+    "version": "6.12.4",
+    "channel": "stable-v6",
+    "npm_integrity": "sha512-DBVws7H1NxpSOhv2DHvLEHTceQGCv9c+gBx/1cnVF38WhlN70854SnHUUCHkTuLIalu6hq/7LRVtAWCNHmnFEw==",
+    "status": "installed",
+    "modules": [
+      "core",
+      "bmm"
+    ],
+    "tool": "codex",
+    "generated_skills": 29,
+    "root": "_bmad",
+    "tool_skills": ".agents/skills",
+    "shims": false,
+    "unattended_loop_enabled": false,
+    "installation_command": "npm exec --yes --package=bmad-method@6.12.4 -- bmad-method install --directory <skills-repository> --modules bmm --tools codex --no-shims --yes",
+    "verification": [
+      "Installer completed with exit code 0",
+      "_bmad/_config/manifest.yaml reports core and bmm 6.12.4",
+      "29 generated tool skill entrypoints found",
+      "uv run --offline _bmad/scripts/resolve_config.py --project-root <skills-repository> completed successfully"
+    ],
+    "limits": [
+      "No product BMAD session executed",
+      "Installed only in this skills checkout; consumer routes explicitly",
+      "No generated plan is accepted by installation"
+    ]
+  },
+  "spec_driven": {
+    "method": "first-party canonical feature specifications and traceable evidence",
+    "spec_kit_cli": "not installed"
+  },
+  "first_party_skills": {
+    "count": 6,
+    "global_installation": false,
+    "repo_local_discovery": ".agents/skills/<name> symlinks to ../../skills/<name>",
+    "validation": "All six passed host skill-creator quick_validate.py"
+  },
+  "product_stack": {
+    "status": "proposed; no packages installed",
+    "backend": "Python / proposed FastAPI",
+    "agents": "LangGraph and appropriate LangChain integrations",
+    "frontend": "Next.js / React with A2UI spike",
+    "database": "PostgreSQL"
+  }
+}

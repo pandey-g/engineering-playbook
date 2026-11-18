@@ -1,0 +1,10 @@
+{
+  "skills_repository": {
+    "local_checkout": ".. (relative to product-draft/)",
+    "foundation_commit": "684ea8c53bacb0685c969b77e91e011882f98756",
+    "remote": "git@github-personal:pandey-g/engineering-playbook.git",
+    "note": "Skills are now at this repository root. foundation_commit identifies the original skills history, preserved locally in .migration-backups/gurukul-2026-11-18/engineering-skills.git. Record the new playbook revision when implementation begins."
+  },
+  "bmad": "6.12.4",
+  "feature_implementation": "not started; learner teach-back pending"
+}
