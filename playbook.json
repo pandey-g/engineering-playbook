@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "default_skills": ["learn-before-build", "spec-driven-delivery", "architecture-tradeoffs"],
+  "skills": {
+    "learn-before-build": {"templates": ["learning-record.md"]},
+    "spec-driven-delivery": {"templates": ["feature-spec.md", "design-adr.md", "delivery-evidence.md"]},
+    "architecture-tradeoffs": {"templates": ["design-adr.md", "lab.md"]},
+    "python-agent-workflows": {"templates": []},
+    "production-readiness": {"templates": []}
+  }
+}
